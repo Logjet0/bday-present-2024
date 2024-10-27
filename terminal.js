@@ -5,10 +5,14 @@ $(function (){
         },
         hi: function(){
             this.echo('hi');
+        },
+        start: function(){
+            this.echo('Welcome to the game.')
         }
 
     }, {
-        greetings: 'Hello Robin. Welcome to !@*(!*@(#&)!',
+        greetings: 'Hello Robin.\n' +
+        'Type [[b;#fff;]start] to begin.',
         prompt: '> '
     });
 })
