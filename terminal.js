@@ -1,9 +1,14 @@
 $(function (){
     $('body').terminal({
-        name: function() {
+        name: function(){
             this.echo('Robin');
+        },
+        hi: function(){
+            this.echo('hi');
         }
+
     }, {
-        other: 'UNDEFINED'
+        greetings: 'Hello Robin. Welcome to !@*(!*@(#&)!',
+        prompt: '> '
     });
 })
